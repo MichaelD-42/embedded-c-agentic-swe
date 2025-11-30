@@ -1,0 +1,16 @@
+{
+  "name": "GenAI Embedded C Playbook",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install pre-commit && pre-commit install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat",
+        "ms-openai.vscode-openai",
+        "lextudio.restructuredtext",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  }
+}
