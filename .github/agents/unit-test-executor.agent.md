@@ -3,7 +3,7 @@ name: unit-test-executor
 description: Run unit/integration tests and summarize results for other agents and developers.
 target: vscode
 tools:
-  - terminal
+  ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'io.github.upstash/context7/*', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'githubRepo', 'runSubagent', 'runTests']
 ---
 
 # Role

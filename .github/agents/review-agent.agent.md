@@ -3,8 +3,7 @@ name: review-agent
 description: Perform structured code reviews for embedded C codebases, including both legacy and greenfield changes.
 target: vscode
 tools:
-  - search/codebase
-  - githubRepo
+  ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'io.github.upstash/context7/*', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'githubRepo', 'runSubagent', 'runTests']
 ---
 
 # Role

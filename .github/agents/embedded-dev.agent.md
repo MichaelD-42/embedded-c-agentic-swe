@@ -3,9 +3,7 @@ name: embedded-dev
 description: Implement and refactor embedded C17 code under automotive constraints, for both new and legacy components.
 target: vscode
 tools:
-  - search/codebase
-  - githubRepo
-  - terminal
+  ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'io.github.upstash/context7/*', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'githubRepo', 'runSubagent', 'runTests']
 ---
 
 # Role

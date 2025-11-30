@@ -3,9 +3,7 @@ name: gtest-bdd-test-dev
 description: Create and maintain Google Test unit and integration tests in GIVEN/WHEN/THEN style for embedded C code, for both legacy and greenfield.
 target: vscode
 tools:
-  - search/codebase
-  - githubRepo
-  - terminal
+  ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'io.github.upstash/context7/*', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'githubRepo', 'runSubagent', 'runTests']
 ---
 
 # Role
